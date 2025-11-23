@@ -1,0 +1,28 @@
+# config.py
+import halcon as ha
+
+# Camera Configuration
+CAMERA_NAME = 'M0003367'
+CAMERA_TYPE = 'GigEVision2'
+
+# GPU Configuration
+GPU_VENDOR = 'NVIDIA Corporation'
+GPU_NAME = 'NVIDIA GeForce RTX 4060 Laptop GPU'
+
+# Modbus Configuration
+MODBUS_HOST = "192.168.0.21"
+MODBUS_READ_ADDRESS = 0
+MODBUS_WRITE_ADDRESS = 3110
+MODBUS_READ_COUNT = 2
+MODBUS_WRITE_COUNT = 2
+
+# Image Processing Parameters
+MAX_IMAGES_REGIONS = 2
+THRESHOLD_MIN = 880
+THRESHOLD_MAX = 1224
+AREA_MIN = 400
+AREA_MAX = 25000
+
+# Scaling Factors
+X_SCALE_FACTOR = 0.48
+Y_SCALE_FACTOR = 0.49
